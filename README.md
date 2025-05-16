@@ -34,8 +34,8 @@ A Python desktop application that helps you discover, view, and save your favori
 To get started with the backend:
 
 1. Import `Appsql.txt` into your MySQL server:
-   sql
-   SOURCE path/to/Appsql.txt;
+   `sql
+   SOURCE path/to/Appsql.txt;`
 
 
 2. This will:
@@ -46,22 +46,13 @@ To get started with the backend:
 
 3. Edit the connection settings in `App.py`:
 
-   python
+  ` python
    host="localhost",
    user="book_user",        # or your username
    password="your_password",# replace with your MySQL password
-   database="book_recommendation_db"
+   database="book_recommendation_db" `
    
  ---
- 
-##💡 Future Features
-
-* Add/remove favorites directly in UI
-* User authentication
-* Book rating system
-* Multi-theme support
-
----
 
 ## 🛡️ License
 
