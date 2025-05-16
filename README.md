@@ -53,6 +53,7 @@ To get started with the backend:
    database="book_recommendation_db"
    
  ---
+ 
 ##💡 Future Features
 
 * Add/remove favorites directly in UI
@@ -71,10 +72,9 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 ## 🙋‍♂️ Author
 
 **Adil Ijaz**
-📧 [your.email@example.com](mailto:adilijaz227@gmail.com)
+📧 [Email Me](mailto:adilijaz227@gmail.com)
 🔗 [LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/Adil-Ijaz7)
 
----
 
 
 
