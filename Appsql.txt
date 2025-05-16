@@ -1,0 +1,25 @@
+-- Create the database
+CREATE DATABASE IF NOT EXISTS book_recommendation_db;
+
+-- Switch to the database
+USE book_recommendation_db;
+
+-- Create the favorites table
+CREATE TABLE IF NOT EXISTS favorites (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    author VARCHAR(255),
+    cover_id VARCHAR(50),
+    description TEXT,
+    olid VARCHAR(50),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Create a dedicated user (replace 'password' with your actual password)
+CREATE USER IF NOT EXISTS 'book_user'@'localhost' IDENTIFIED BY 'password';
+
+-- Grant privileges to the user
+GRANT ALL PRIVILEGES ON book_recommendation_db.* TO 'book_user'@'localhost';
+
+-- Apply the privilege changes
+FLUSH PRIVILEGES;
