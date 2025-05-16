@@ -34,9 +34,9 @@ A Python desktop application that helps you discover, view, and save your favori
 To get started with the backend:
 
 1. Import `Appsql.txt` into your MySQL server:
-   ```sql
+   sql
    SOURCE path/to/Appsql.txt;
-````
+
 
 2. This will:
 
@@ -46,49 +46,13 @@ To get started with the backend:
 
 3. Edit the connection settings in `App.py`:
 
-   ```python
+   python
    host="localhost",
    user="book_user",        # or your username
    password="your_password",# replace with your MySQL password
    database="book_recommendation_db"
-   ```
-
+   
  ---
-
-##🚀 Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/book-recommendation-app.git
-cd book-recommendation-app
-```
-
-###2. Install Requirements
-
-```bash
-pip install customtkinter pillow requests mysql-connector-python
-```
-
-###3. Run the Application
-
-```bash
-python App.py
-```
-
----
-
-##📂 File Structure
-
-```
-├── App.py              # Main application code
-├── Appsql.txt          # SQL script to create DB and user
-├── README.md           # Project overview
-└── requirements.txt    # (optional) Python dependencies
-```
-
----
-
 ##💡 Future Features
 
 * Add/remove favorites directly in UI
