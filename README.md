@@ -25,6 +25,8 @@ A Python desktop application that helps you discover, view, and save your favori
 - **MySQL** – for storing favorites
 - `mysql-connector-python` – Python MySQL client
 
+
+
 ---
 
 ## 🏗️ Database Setup (`Appsql.txt`)
@@ -50,6 +52,8 @@ To get started with the backend:
    password="your_password",# replace with your MySQL password
    database="book_recommendation_db"
    ```
+
+ ---
 
 ##🚀 Getting Started
 
@@ -107,5 +111,7 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 🔗 [LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/Adil-Ijaz7)
 
 ---
+
+
 
 
