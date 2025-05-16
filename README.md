@@ -38,9 +38,9 @@ To get started with the backend:
 
 2. This will:
 
-   * Create a database `book_recommendation_db`
-   * Create a `favorites` table to store book info
-   * Create a user `book_user` with full privileges
+* Create a database `book_recommendation_db`
+* Create a `favorites` table to store book info
+* Create a user `book_user` with full privileges
 
 3. Edit the connection settings in `App.py`:
 
@@ -51,9 +51,7 @@ To get started with the backend:
    database="book_recommendation_db"
    ```
 
----
-
-## 🚀 Getting Started
+##🚀 Getting Started
 
 ### 1. Clone the Repository
 
@@ -62,13 +60,13 @@ git clone https://github.com/your-username/book-recommendation-app.git
 cd book-recommendation-app
 ```
 
-### 2. Install Requirements
+###2. Install Requirements
 
 ```bash
 pip install customtkinter pillow requests mysql-connector-python
 ```
 
-### 3. Run the Application
+###3. Run the Application
 
 ```bash
 python App.py
@@ -76,7 +74,7 @@ python App.py
 
 ---
 
-## 📂 File Structure
+##📂 File Structure
 
 ```
 ├── App.py              # Main application code
@@ -87,7 +85,7 @@ python App.py
 
 ---
 
-## 💡 Future Features
+##💡 Future Features
 
 * Add/remove favorites directly in UI
 * User authentication
