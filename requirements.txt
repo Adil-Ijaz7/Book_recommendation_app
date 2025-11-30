@@ -1,0 +1,10 @@
+customtkinter==5.2.0
+requests==2.32.3
+Pillow==10.4.0
+mysql-connector-python==9.0.0
+
+# Optional (uncomment if you add environment variable loading)
+# python-dotenv==1.0.1
+
+# If you later add testing:
+# pytest==8.3.2
